@@ -1,6 +1,6 @@
 # Napište program, který z textového souboru přečte seznam zůstatků na spořících účtech a vypíše tyto zůstatky navýšené o 2.5% úrok.
 
-with open('9-zustatky.txt', encoding='utf-8') as vstup:
+with open('09-zustatky.txt', encoding='utf-8') as vstup:
   zustatky = vstup.readlines()
 
 zustatky_float = [float(radek) for radek in zustatky]
